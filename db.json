@@ -18,12 +18,36 @@
   },
   "tools": [
     {
-      "toolID": "",
-      "graphiteBlockID": "",
-      "toolQuality": "",
-      "toolSize": "",
-      "dateReceived": "",
-      "id": 1
+      "toolID": 123,
+      "graphiteBlockID": "GP368",
+      "toolQuality": "Sharp",
+      "toolSize": "32\"",
+      "dateReceived": "2023-11-16T06:00:00.000Z",
+      "id": 4
+    },
+    {
+      "toolID": 436287,
+      "graphiteBlockID": "GP4378",
+      "toolQuality": "Dull",
+      "toolSize": "32\"",
+      "dateReceived": "2023-11-13T06:00:00.000Z",
+      "id": 5
+    },
+    {
+      "toolID": 536782,
+      "graphiteBlockID": "GP2456",
+      "toolQuality": "Dull",
+      "toolSize": "32\"",
+      "dateReceived": "2023-11-17T06:00:00.000Z",
+      "id": 6
+    },
+    {
+      "toolID": 643784,
+      "graphiteBlockID": "GP32687",
+      "toolQuality": "Dull",
+      "toolSize": "42\"",
+      "dateReceived": "2023-11-16T06:00:00.000Z",
+      "id": 7
     }
   ]
 }
