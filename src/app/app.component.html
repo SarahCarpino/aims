@@ -32,15 +32,17 @@
       <span>Home</span>
     </button>
 
-    <button mat-button class="menu-button">
+    <button mat-button class="menu-button" routerLink="/test">
       <mat-icon> place</mat-icon>
       <span>Location</span>
     </button>
 
-    <button mat-button class="menu-button" [routerLink]="['./Inventory']">
+    <button class="menu-button">
       <mat-icon>assignment</mat-icon>
-      <span> Inventory</span>
+      <span>Inventory</span>
     </button>
+    
+ 
 <mat-divider></mat-divider>
   
     <button mat-button class="logout-button">

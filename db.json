@@ -56,6 +56,14 @@
       "toolSize": "32\"",
       "dateReceived": "2023-11-18T06:00:00.000Z",
       "id": 8
+    },
+    {
+      "toolID": 473892,
+      "graphiteBlockID": "GP3628",
+      "toolQuality": "Dull",
+      "toolSize": "32\"",
+      "dateReceived": "2023-11-24T06:00:00.000Z",
+      "id": 9
     }
   ]
 }
