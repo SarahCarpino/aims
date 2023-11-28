@@ -24,6 +24,10 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatDividerModule } from '@angular/material/divider';
+import { LoginComponent } from './login/login.component';
+
+
+
 
 
 
@@ -31,6 +35,9 @@ import { MatDividerModule } from '@angular/material/divider';
   declarations: [
     AppComponent,
     EmpAddEditComponent,
+    LoginComponent,
+    
+    
   ],
   imports: [
     BrowserModule,

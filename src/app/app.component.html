@@ -32,26 +32,29 @@
       <span>Home</span>
     </button>
 
-    <button mat-button class="menu-button" routerLink="/test">
+    <button mat-button class="menu-button">
       <mat-icon> place</mat-icon>
       <span>Location</span>
     </button>
 
-    <button class="menu-button">
+    <button mat-button class="menu-button">
       <mat-icon>assignment</mat-icon>
       <span>Inventory</span>
     </button>
     
  
 <mat-divider></mat-divider>
-  
-    <button mat-button class="logout-button">
-      <mat-icon aria-hidden="false">logout</mat-icon>      
+  <router-outlet></router-outlet>
+    <button mat-button class="logout-button" [routerLink]="'/Login'">
+      <mat-icon>logout</mat-icon>      
       <span>Logout</span>
     </button>
   
   </mat-sidenav>
+  
+
   <div class="main-body">
+    
     <mat-form-field>
       <mat-label>Filter</mat-label>
       <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Sharp " #input>
@@ -118,7 +121,8 @@
   
     <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
   </div>
-  </div>
+  <router-outlet></router-outlet>
+</div>
 
 
 </mat-sidenav-container>
