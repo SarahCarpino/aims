@@ -1,3 +1,4 @@
+
 <mat-toolbar color="primary">
   <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" 
   *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
@@ -36,9 +37,9 @@
       <span>Location</span>
     </button>
 
-    <button mat-button class="menu-button" (click)="navigateToInventory()">
+    <button mat-button class="menu-button" [routerLink]="['./Inventory']">
       <mat-icon>assignment</mat-icon>
-      <span>Inventory</span>
+      <span> Inventory</span>
     </button>
 <mat-divider></mat-divider>
   

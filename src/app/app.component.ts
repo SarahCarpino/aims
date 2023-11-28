@@ -12,7 +12,7 @@ import { FormControl } from '@angular/forms';
 import { OverlayContainer } from '@angular/cdk/overlay';
 import { MatSidenav } from '@angular/material/sidenav';
 import { BreakpointObserver } from '@angular/cdk/layout';
-import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
@@ -50,12 +50,10 @@ export class AppComponent implements OnInit{
     private _coreService: CoreService,
     private overlay: OverlayContainer,
     private observer: BreakpointObserver,
-    private router: Router,
+
   ) {}
 
-  navigateToInventory() {
-    this.router.navigate(['src/app/app.component.html']); // Matches the 'path' defined in the app-routing.module.ts
-  } 
+  
 
   ngAfterViewInIt() {
     this.observer.observe(['(max-width: 800px)']).subscribe((res) => {
