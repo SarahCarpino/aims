@@ -31,11 +31,13 @@ import { LoginComponent } from './login/login.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     EmpAddEditComponent,
     LoginComponent,
+    
     
     
   ],
@@ -67,4 +69,4 @@ import { LoginComponent } from './login/login.component';
   providers: [],
   bootstrap: [AppComponent] 
 })
-export class AppModule { }
+export class AppModule {}

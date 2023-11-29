@@ -64,6 +64,22 @@
       "toolSize": "32\"",
       "dateReceived": "2023-11-24T06:00:00.000Z",
       "id": 9
+    },
+    {
+      "toolID": 436278,
+      "graphiteBlockID": "GP46327",
+      "toolQuality": "Scrap",
+      "toolSize": "32\"",
+      "dateReceived": "2023-11-18T06:00:00.000Z",
+      "id": 10
+    },
+    {
+      "toolID": 473891,
+      "graphiteBlockID": "GP27910",
+      "toolQuality": "Sharp",
+      "toolSize": "32\"",
+      "dateReceived": "2023-11-18T06:00:00.000Z",
+      "id": 11
     }
   ]
 }
