@@ -33,8 +33,17 @@
           </mat-form-field>
     </div>
     <div class="row">
+      <mat-form-field appearance="outline">
+        <mat-label>Location</mat-label>
+        <mat-select formControlName="location">
+          <mat-option *ngFor="let val of location" [value]="val">{{val}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="row">
         <mat-form-field appearance="outline">
-            <mat-label>Date Received</mat-label>
+            <mat-label>Last Sharpened</mat-label>
             <input matInput [matDatepicker]="picker" formControlName="dateReceived">
             <mat-hint>MM/DD/YYYY</mat-hint>
             <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>

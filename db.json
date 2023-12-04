@@ -18,68 +18,31 @@
   },
   "tools": [
     {
-      "toolID": 123,
-      "graphiteBlockID": "GP368",
+      "toolID": 5678997897788,
+      "graphiteBlockID": "GP5679",
       "toolQuality": "Sharp",
       "toolSize": "32\"",
-      "dateReceived": "2023-11-16T06:00:00.000Z",
-      "id": 4
-    },
-    {
-      "toolID": 436287,
-      "graphiteBlockID": "GP4378",
-      "toolQuality": "Dull",
-      "toolSize": "32\"",
-      "dateReceived": "2023-11-13T06:00:00.000Z",
-      "id": 5
-    },
-    {
-      "toolID": 536782,
-      "graphiteBlockID": "GP2456",
-      "toolQuality": "Dull",
-      "toolSize": "32\"",
+      "location": "Kansas City",
       "dateReceived": "2023-11-17T06:00:00.000Z",
-      "id": 6
+      "id": 12
     },
     {
-      "toolID": 643784,
-      "graphiteBlockID": "GP32687",
-      "toolQuality": "Dull",
-      "toolSize": "42\"",
-      "dateReceived": "2023-11-16T06:00:00.000Z",
-      "id": 7
-    },
-    {
-      "toolID": 436278,
-      "graphiteBlockID": "GP46327",
-      "toolQuality": "Scrap",
-      "toolSize": "32\"",
-      "dateReceived": "2023-11-18T06:00:00.000Z",
-      "id": 8
-    },
-    {
-      "toolID": 473892,
-      "graphiteBlockID": "GP3628",
+      "toolID": 473899,
+      "graphiteBlockID": "GP73289",
       "toolQuality": "Dull",
       "toolSize": "32\"",
+      "location": "Keokuk",
       "dateReceived": "2023-11-24T06:00:00.000Z",
-      "id": 9
+      "id": 13
     },
     {
-      "toolID": 436278,
-      "graphiteBlockID": "GP46327",
-      "toolQuality": "Scrap",
-      "toolSize": "32\"",
-      "dateReceived": "2023-11-18T06:00:00.000Z",
-      "id": 10
-    },
-    {
-      "toolID": 473891,
-      "graphiteBlockID": "GP27910",
-      "toolQuality": "Sharp",
-      "toolSize": "32\"",
-      "dateReceived": "2023-11-18T06:00:00.000Z",
-      "id": 11
+      "toolID": 473829,
+      "graphiteBlockID": "GP473920",
+      "toolQuality": "Dull",
+      "toolSize": "36\"",
+      "location": "Kansas City",
+      "dateReceived": "2023-11-24T06:00:00.000Z",
+      "id": 14
     }
   ]
 }

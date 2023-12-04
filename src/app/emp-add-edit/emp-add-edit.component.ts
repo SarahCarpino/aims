@@ -24,6 +24,12 @@ export class EmpAddEditComponent implements OnInit{
     '36"',
     '42"',
   ];
+  location: string[] = [
+    'Columbus',
+    'Kansas City',
+    'Keokuk',
+    'Winnepeg',
+  ];
  
 
   constructor(private _fb: FormBuilder, 
@@ -37,6 +43,7 @@ export class EmpAddEditComponent implements OnInit{
       graphiteBlockID: '',
       toolQuality: '',
       toolSize: '',
+      location: '',
       dateReceived: '',
     });
   }
@@ -44,6 +51,7 @@ export class EmpAddEditComponent implements OnInit{
     this.empForm.patchValue(this.data);
   }
 
+  //update tool
   onFormSubmit(){
     if(this.empForm.valid){
       if(this.data){

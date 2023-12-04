@@ -5,8 +5,7 @@ import { ToolsService } from './services/tools.service';
 import {MatPaginator, MatPaginatorModule} from '@angular/material/paginator';
 import {MatSort, MatSortModule} from '@angular/material/sort';
 import {MatTableDataSource, MatTableModule} from '@angular/material/table';
-import {MatInputModule} from '@angular/material/input';
-import {MatFormFieldModule} from '@angular/material/form-field';
+
 import { CoreService } from './core/core.service';
 import { FormControl } from '@angular/forms';
 import { OverlayContainer } from '@angular/cdk/overlay';
@@ -20,6 +19,7 @@ import { BreakpointObserver } from '@angular/cdk/layout';
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
+//form for tools
 export class AppComponent implements OnInit{
   displayedColumns: string[] = [
   'id',
@@ -27,6 +27,7 @@ export class AppComponent implements OnInit{
   'graphiteBlockID', 
   'toolQuality', 
   'toolSize',
+  'location',
   'dateReceived',
   'action',
 ];
@@ -36,7 +37,7 @@ export class AppComponent implements OnInit{
   @ViewChild(MatSort) sort!: MatSort;
   @ViewChild(MatSidenav) sidenav!: MatSidenav;
 
-
+//light-dark theme
   switchTheme = new FormControl(false)
   @HostBinding('class') 
   className = ''
@@ -55,7 +56,7 @@ export class AppComponent implements OnInit{
   ) {}
 
   
-
+//sidenav bar function
   ngAfterViewInIt() {
     this.observer.observe(['(max-width: 800px)']).subscribe((res) => {
       if (res.matches) {
@@ -67,7 +68,7 @@ export class AppComponent implements OnInit{
       }
     });
   }
-
+//switches between light and dark mode
   ngOnInit(): void {
 
     this.switchTheme.valueChanges.subscribe((currentMode) => {
