@@ -1,5 +1,20 @@
 import { Component } from '@angular/core';
+import { Injectable } from '@angular/core'
 
+@Injectable({
+  providedIn: 'root'
+})
+export class LoginService {
+  private loginCode: string = '1234';
+
+  setLoginCode(code: string): void {
+    this.loginCode = code;
+  }
+
+  getLoginCode(): string {
+    return this.loginCode;
+  }
+}
 
 @Component({
   selector: 'app-login',
@@ -111,6 +126,6 @@ if (mainPinLogin) {
   new PinLogin({
     el: mainPinLogin,
     loginEndpoint: "login.php",
-    redirectTo: "dashboard.html"
+    redirectTo: "app.component.html"
   });
 }
