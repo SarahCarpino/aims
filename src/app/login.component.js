@@ -70,6 +70,6 @@ class PinLogin {
   
   new PinLogin({
     el: document.getElementById("mainPinLogin"),
-    loginEndpoint: "login.php",
+    loginEndpoint: "login.php", //fix this 
     redirectTo: "dashboard.html"
   });

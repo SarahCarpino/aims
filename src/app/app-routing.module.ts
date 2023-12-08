@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
 
 const routes: Routes = [
 
- {path: 'Login', component: LoginComponent},
+ {path: 'login', component: LoginComponent},
  {path: 'Inventory', component: AppComponent},
 ];
 
