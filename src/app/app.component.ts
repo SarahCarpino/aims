@@ -11,28 +11,7 @@ import { FormControl } from '@angular/forms';
 import { OverlayContainer } from '@angular/cdk/overlay';
 import { MatSidenav } from '@angular/material/sidenav';
 import { BreakpointObserver } from '@angular/cdk/layout';
-import { LoginService } from './login.component';
 
-@Component({
-  selector: 'app-inventory',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
-})
-export class InventoryComponent {
-  isDeleteButtonDisabled: boolean = false;
-
-  constructor(private loginService: LoginService) {}
-
-  ngOnInit() {
-    const enteredCode = this.loginService.getLoginCode();
-    // Check if enteredCode matches the specific code that disables the delete button
-    if (enteredCode === 'your_specific_code') {
-      this.isDeleteButtonDisabled = true;
-    } else {
-      this.isDeleteButtonDisabled = false;
-    }
-  }
-}
 
 @Component({
   selector: 'app-root',
